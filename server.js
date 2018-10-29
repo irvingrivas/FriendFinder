@@ -9,7 +9,7 @@ var PORT = process.env.PORT || 8080;
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'app/public')));
 
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
