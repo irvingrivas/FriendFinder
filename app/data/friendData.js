@@ -1,7 +1,7 @@
 var friendData = [
     {
-        name: "Ahmed",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Irving Rivas",
+        photo: "https://www.irvingrivas.com/assets/images/prof.png",
         scores: [
             5,
             1,
