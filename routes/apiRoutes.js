@@ -10,7 +10,7 @@ module.exports = function (app) {
         for (let i = 0; i < friendData.length; ++i) {
             let total = 0;
             for (let j = 0; j < friendData[i].scores.length; ++j) {
-                total += Math.abs(friendData[i].scores[j] - parseInt(req.body.scores[j]);
+                total += Math.abs(friendData[i].scores[j] - parseInt(req.body.scores[j]));
             }
             diffArr.push(total);
         }
